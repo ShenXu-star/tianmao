@@ -1,0 +1,448 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+a {
+	color: #A9A9A9;
+}
+
+/* *********************第一块*********************** */
+
+/* **************左边*************** */
+.content {
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0;
+	background-color: rgb(242, 252, 252);
+}
+
+.content .left {
+	float: left;
+}
+
+.content .right {
+	float: right;
+}
+
+.content .left li {
+	float: left;
+	color: #A9A9A9;
+	padding: 0 10px;
+}
+
+/* *************右边************** */
+.content .tn-1 i {
+	padding: 0 2px;
+	color: red;
+}
+
+.content .right li {
+	float: left;
+	padding: 0 10px;
+	position: relative;
+}
+
+.content .container li a:hover {
+	color: red;
+}
+
+.content .container .right li:nth-child(1) a:hover,
+.content .container .right li:nth-child(3) a:hover,
+.content .container .right li:nth-child(6) a:hover {
+	border-bottom: 1px solid red;
+}
+
+.content .container .right ul {
+	position: absolute;
+	display: none;
+}
+
+.content .container .right ul li {
+	width: 100px;
+	margin-left: -10px;
+}
+
+
+/* *********************第二块********************** */
+/* **********左边*********** */
+.content-1 .left img {
+	float: left;
+	margin-left: -30px;
+}
+
+.content-1 .right {
+	width: 604px;
+	margin: auto;
+	padding-top: 35px;
+}
+
+.content-1 .right form {
+	border: 2px solid red;
+	overflow: hidden;
+}
+
+.content-1 .right input {
+	width: 490px;
+	height: 36px;
+	float: left;
+	outline: none;
+	border: none;
+	padding: 5px;
+}
+
+.content-1 .right button {
+	width: 110px;
+	height: 36px;
+	float: left;
+	outline: none;
+	border: none;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+/* ***************右边************** */
+.content-1 ul li {
+	float: left;
+	margin-top: 5px;
+	border-right: 1px solid #A9A9A9;
+}
+
+.content-1 ul li:last-child {
+	border: none;
+}
+
+.content-1 ul li a {
+	margin: 0 8px;
+}
+
+.content-1 .right ul li:nth-child(1) a,
+.content-1 .right ul li:nth-child(5) a {
+	color: red;
+}
+
+.content-1 .container {
+	position: relative;
+}
+
+.content-1 .container .tu {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+/* *********************第三块********************** */
+/* *********导航栏********** */
+.content-2 {
+	position: relative;
+	clear: both;
+}
+
+.content-2 .tn-2 ul {
+	overflow: hidden;
+	height: 36px;
+}
+
+.content-2 .tn-2 li {
+	float: left;
+	line-height: 36px;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.content-2 .tn-2 li a {
+	color: black;
+}
+
+.content-2 .tn-2 li:nth-child(1) {
+	text-align: left;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: red;
+	padding-left: 10px;
+	padding-right: 50px;
+}
+
+.content-2 .tn-2 li:nth-child(1) i {
+	margin-right: 5px;
+}
+
+.content-2 .tn-2 li:nth-child(1) a {
+	color: white;
+}
+
+.content-2 .tn-2 li:nth-child(4) a:hover,
+.content-2 .tn-2 li:nth-child(5) a:hover,
+.content-2 .tn-2 li:nth-child(6) a:hover,
+.content-2 .tn-2 li:nth-child(7) a:hover,
+.content-2 .tn-2 li:nth-child(8) a:hover,
+.content-2 .tn-2 li:nth-child(9) a:hover,
+.content-2 .tn-2 li:nth-child(10) a:hover,
+.content-2 .tn-2 li:nth-child(11) a:hover {
+	color: red;
+}
+
+.content-2 .tn-2 li:nth-child(1) a i {
+	position: relative;
+	top: 2px;
+}
+
+.content-2 .tn-2 li img {
+	height: 36px;
+}
+
+
+/* *************轮播图************* */
+.content-2 .bannar {
+	height: 496px;
+	text-align: center;
+	background-color: #FF8C00;
+	border-top: 2px solid red;
+}
+
+.bannar img {
+	height: 100%;
+}
+
+
+/* ***************二级菜单************* */
+.content-2 .list {
+	width: 100%;
+	position: absolute;
+	top: 37px;
+	left: 0;
+}
+
+.content-2 .list .list-1 {
+	width: 210px;
+	line-height: 31px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-2 .list .list-1 {
+	position: relative;
+	color: white;
+}
+
+.content-2 .list .list-1 li i {
+	padding-left: 10px;
+	margin-right: 5px;
+	color: rgb(200, 200, 200);
+}
+
+.content-2 .list .list-1 li a {
+	color: white;
+}
+
+.content-2 .list .list-1 li:hover {
+	background-color: white;
+}
+
+.content-2 .list li:nth-of-type(2n):hover a {
+	color: red;
+}
+
+.content-2 .list li:nth-of-type(2n+1):hover a {
+	color: green;
+}
+
+.content-2 .list li:nth-of-type(2n):hover i {
+	color: red;
+}
+
+.content-2 .list li:nth-of-type(2n+1):hover i {
+	color: green;
+}
+
+
+/* ***************三级菜单************* */
+.content-2 .list .list-1 .list-2 {
+	position: absolute;
+	top: 0;
+	left: 210px;
+	width: 800px;
+	height: 496px;
+	background-color: white;
+	display: none;
+}
+
+.content-2 .list .list-1 li:hover .list-2 {
+	padding: 10px;
+	display: block;
+}
+
+.content-2 .list .list-1 .list-2 .line {
+	color: black;
+	width: 560px;
+	float: left;
+}
+
+.content-2 .list .list-1 .list-2 .line a {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.content-2 .list .list-1 .list-2 .line a:nth-child(1),
+.content-2 .list .list-1 .list-2 .line a:nth-child(3),
+.content-2 .list .list-1 .list-2 .line a:nth-child(7),
+.content-2 .list .list-1 .list-2 .line a:nth-child(10) {
+	color: red;
+}
+
+.content-2 .list .list-1 .list-2 .line a:hover {
+	color: red;
+}
+
+.content-2 .list .list-1 .list-2 .line .left-1 {
+	line-height: 25px;
+	width: 100px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.content-2 .list .list-1 .list-2 .line .right-1 {
+	line-height: 25px;
+	width: 460px;
+	float: left;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	padding: 10px 0;
+}
+
+.content-2 .list .list-1 .list-2 .right {
+	width: 240px;
+	float: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.content-2 .list .list-1 .list-2 .right a {
+	float: left;
+	width: 50%;
+	padding: 5px 2px;
+	box-sizing: border-box;
+}
+
+.content-2 .list .list-1 .list-2 .right a img {
+	width: 100%;
+}
+
+
+/* ******************第四块******************* */
+/* **********上部*********** */
+.content-3 .image {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.content-3 .image-2 {
+	float: left;
+	width: 100%;
+}
+
+.content-3 .image-2 a {
+	position: relative;
+	float: left;
+	padding: 10px 10px 10px 0;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.content-3 .image-2 a img {
+	width: 100%;
+}
+
+.content-3 .image .image-2 b {
+	position: absolute;
+	width: 230px;
+	height: 260px;
+	top: 10px;
+	left:0;
+}
+
+/* **********下部*********** */
+.content-3 .image .image-3 .image-3-1 {
+	position: relative;
+	width: 19%;
+	float: left;
+}
+
+.content-3 .image .image-3 .image-3-2 {
+	position: relative;
+	width: 39%;
+	float: left;
+	padding: 0 15px;
+}
+
+.content-3 .image .image-3 .image-3-3 {
+	position: relative;
+	width: 39%;
+	float: left;
+}
+
+.content-3 .image .image-3 img {
+	width: 100%;
+}
+
+.content-3 .image .image-3 .top {
+	margin-top: 20px;
+	padding: 15px 10px 35px;
+	text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+	background-color: lightcyan;
+	border-bottom: 1px solid #A9A9A9;
+}
+
+.content-3 .image .image-3 .top i {
+	padding-left: 5px;
+}
+
+.content-3 .image .image-3 p:nth-child(1) {
+	float: left;
+}
+
+.content-3 .image .image-3 p:nth-child(2) {
+	float: right;
+	font-weight: 400;
+}
+
+.content-3 .image b {
+	position: absolute;
+	top: 72px;
+	left: 0;
+	width: 228px;
+	height: 314px;
+}
+
+.content-3 .image .image-3-2 b {
+	left: 15px;
+	width: 468px;
+}
+
+.content-3 .image .image-3-3 b {
+	width: 468px;
+}
+
+.content-3 .image b:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* *************第五块************ */
